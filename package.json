@@ -1,0 +1,22 @@
+{
+  "name": "backend_skeleton_task",
+  "version": "1.0.0",
+  "description": "A skeleton codebase of the backend of a Zomato like platform.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dipanshu Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.13.5",
+    "dotenv": "^16.4.7",
+    "drizzle-kit": "^0.30.4",
+    "drizzle-orm": "^0.39.3",
+    "pg": "^8.13.3",
+    "postgres": "^3.4.5",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
